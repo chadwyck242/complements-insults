@@ -1,0 +1,24 @@
+{
+	"name": "nodeexample",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"dependencies": {
+		"express": "^4.17.1",
+		"popmotion": "^8.6.10"
+	},
+	"devDependencies": {
+		"cssnano": "^4.1.10",
+		"eslint": "^5.16.0",
+		"eslint-plugin-react": "^7.13.0"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js",
+		"dev": "parcel index.html",
+		"build": "parcel build index.html"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
